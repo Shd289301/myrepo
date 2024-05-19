@@ -1,0 +1,60 @@
+/* Reset some basic styles */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Import custom font */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style for the body element */
+body {
+    background: linear-gradient(135deg, #74EBD5 0%, #9FACE6 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.125rem;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a.btn:hover {
+    background-color: #0056b3;
+}
